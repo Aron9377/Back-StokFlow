@@ -9,6 +9,10 @@
   "author": "Aron Arias",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
