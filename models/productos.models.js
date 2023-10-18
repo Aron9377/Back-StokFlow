@@ -11,6 +11,6 @@ const ProductosSchema = new Schema(
   { versionKey: false }
 );
 
-const ProductosModel = mongoose.model("productos", canchasSchema);
+const ProductosModel = mongoose.model("productosflow", ProductosSchema);
 
 module.exports = ProductosModel;
